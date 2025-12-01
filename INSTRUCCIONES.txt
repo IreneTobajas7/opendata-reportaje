@@ -1,0 +1,65 @@
+═══════════════════════════════════════════════════════════════════════════════
+  RETO PERIODISMO DE DATOS BIZKAIA 2025
+  Categoría: Representación dinámica de datos
+═══════════════════════════════════════════════════════════════════════════════
+
+PROYECTO: "¿Quién juega y quién se queda fuera?"
+Anatomía del deporte escolar en Bizkaia y su brecha de género
+
+═══════════════════════════════════════════════════════════════════════════════
+ACCESO A LAS VERSIONES ONLINE
+═══════════════════════════════════════════════════════════════════════════════
+
+Para una mejor experiencia interactiva, te recomendamos consultar las 
+versiones online de este proyecto:
+
+📊 DASHBOARD INTERACTIVO
+https://opendata-dashboard-irenetobajas.vercel.app/
+
+En el dashboard podrás:
+• Filtrar datos por temporada, deporte y categoría
+• Explorar visualizaciones interactivas con click-to-filter
+• Ver observaciones dinámicas que se adaptan a tus filtros
+• Acceder a datos detallados de participación y brecha de género
+
+📄 REPORTAJE COMPLETO
+https://opendata-reportaje-irenetobajas.vercel.app/
+
+El reportaje incluye:
+• Análisis completo de la evolución de la brecha de género (2018-2024)
+• Visualizaciones interactivas de datos
+• Interpretaciones contextuales
+• Metodología y fuentes documentadas
+
+═══════════════════════════════════════════════════════════════════════════════
+CONTENIDO DEL PROYECTO
+═══════════════════════════════════════════════════════════════════════════════
+
+Este proyecto analiza la participación en el deporte escolar en Bizkaia desde 
+2018 hasta 2024, con un enfoque especial en la brecha de género. Utiliza datos 
+oficiales de Open Data Bizkaia para identificar patrones, tendencias y 
+oportunidades de mejora en la igualdad de acceso al deporte escolar.
+
+DATOS ANALIZADOS:
+• 261.015 participaciones oficiales (2018-2024)
+• Oferta de actividades de competición e iniciación (2024-25)
+• Encuesta de hábitos deportivos escolares (2022-2023)
+
+═══════════════════════════════════════════════════════════════════════════════
+NOTA IMPORTANTE
+═══════════════════════════════════════════════════════════════════════════════
+
+Las versiones online ofrecen una experiencia más rica e interactiva que el PDF 
+adjunto. Te recomendamos especialmente explorar el dashboard para una 
+comprensión completa de los datos y sus interrelaciones.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Elaborado por: Irene Tobajas Sebastián
+Contacto: irenetobajas@gmail.com
+
+Fuente de datos: Open Data Bizkaia
+https://www.opendatabizkaia.eus/es/catalogo/deporte-escolar
+
+═══════════════════════════════════════════════════════════════════════════════
+
