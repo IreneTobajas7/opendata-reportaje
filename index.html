@@ -538,10 +538,23 @@
         margin: 15mm 18mm 20mm;
       }
       
+      /* Eliminar TODOS los saltos de página de forma universal */
+      * {
+        page-break-inside: auto !important;
+        page-break-after: auto !important;
+        page-break-before: auto !important;
+        break-inside: auto !important;
+        break-after: auto !important;
+        break-before: auto !important;
+      }
+      
       /* Eliminar todos los saltos de página */
       body, html {
         height: auto !important;
         overflow: visible !important;
+        page-break-inside: auto !important;
+        page-break-after: auto !important;
+        page-break-before: auto !important;
       }
       
       body {
@@ -563,7 +576,8 @@
         border-radius: 0;
         background: #ffffff;
         color: #000000;
-        page-break-after: avoid;
+        page-break-after: auto !important;
+        page-break-before: auto !important;
       }
       header.hero .meta span,
       header.hero h1,
@@ -577,9 +591,10 @@
         max-width: 100%;
         padding: 0;
         height: auto !important;
+        page-break-inside: auto !important;
       }
 
-      /* Eliminar todos los break-inside para que fluya continuo */
+      /* Todos los elementos fluyen continuo */
       section,
       .pulse-lede,
       .story-block,
@@ -590,7 +605,10 @@
       .dual-chart-grid,
       canvas,
       h2,
-      h3 {
+      h3,
+      p,
+      div,
+      article {
         break-inside: auto !important;
         page-break-inside: auto !important;
         page-break-after: auto !important;
@@ -610,7 +628,7 @@
         margin: 0 0 2rem 0;
         text-align: center;
         box-shadow: 0 4px 12px rgba(0, 83, 76, 0.15);
-        page-break-inside: avoid;
+        page-break-inside: auto !important;
       }
       .print-only-notice p {
         margin: 0;
