@@ -532,6 +532,75 @@
       display: none;
     }
     @media print {
+      /* Configurar página continua sin saltos */
+      @page {
+        size: A4 portrait;
+        margin: 15mm 18mm 20mm;
+      }
+      
+      /* Eliminar todos los saltos de página */
+      body, html {
+        height: auto !important;
+        overflow: visible !important;
+      }
+      
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        margin: 0;
+      }
+
+      /* Ocultar elementos solo útiles en pantalla */
+      .reading-progress {
+        display: none !important;
+      }
+
+      /* Hero simplificado */
+      header.hero {
+        box-shadow: none;
+        border-radius: 0;
+        background: #ffffff;
+        color: #000000;
+        page-break-after: avoid;
+      }
+      header.hero .meta span,
+      header.hero h1,
+      header.hero .subtitle {
+        color: #000000;
+        text-shadow: none;
+      }
+
+      /* Contenido fluido sin saltos */
+      main {
+        max-width: 100%;
+        padding: 0;
+        height: auto !important;
+      }
+
+      /* Eliminar todos los break-inside para que fluya continuo */
+      section,
+      .pulse-lede,
+      .story-block,
+      .impact-grid,
+      .impact-card,
+      .chart-wrapper,
+      .highlight-box,
+      .dual-chart-grid,
+      canvas,
+      h2,
+      h3 {
+        break-inside: auto !important;
+        page-break-inside: auto !important;
+        page-break-after: auto !important;
+        page-break-before: auto !important;
+        margin-bottom: 1.5rem;
+        box-shadow: none;
+        border-radius: 0;
+      }
+
+      /* Bocadillo de enlace online */
       .print-only-notice {
         display: block;
         background: #f0fdf4;
@@ -541,6 +610,7 @@
         margin: 0 0 2rem 0;
         text-align: center;
         box-shadow: 0 4px 12px rgba(0, 83, 76, 0.15);
+        page-break-inside: avoid;
       }
       .print-only-notice p {
         margin: 0;
@@ -551,6 +621,12 @@
       .print-only-notice a {
         color: #00534c;
         font-weight: 700;
+        text-decoration: underline;
+      }
+
+      /* Enlaces legibles */
+      a {
+        color: inherit;
         text-decoration: underline;
       }
     }
